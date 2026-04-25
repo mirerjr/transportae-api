@@ -1,4 +1,4 @@
-package br.com.transportae.Itinerario;
+package br.com.transportae.itinerario;
 
 import java.security.Principal;
 import java.time.LocalDate;
@@ -17,15 +17,15 @@ import org.springframework.data.util.Streamable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoModel;
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoService;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusModel;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusRepository;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusService;
-import br.com.transportae.ItinerarioStatus.ItinerarioStatusDto;
-import br.com.transportae.ItinerarioStatus.ItinerarioStatusModel;
-import br.com.transportae.ItinerarioStatus.ItinerarioStatusService;
-import br.com.transportae.ItinerarioStatus.TipoItinerarioStatus;
+import br.com.transportae.itinerarioPonto.ItinerarioPontoModel;
+import br.com.transportae.itinerarioPonto.ItinerarioPontoService;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusModel;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusRepository;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusService;
+import br.com.transportae.itinerarioStatus.ItinerarioStatusDto;
+import br.com.transportae.itinerarioStatus.ItinerarioStatusModel;
+import br.com.transportae.itinerarioStatus.ItinerarioStatusService;
+import br.com.transportae.itinerarioStatus.TipoItinerarioStatus;
 import br.com.transportae.linhaTransporte.LinhaTransporteModel;
 import br.com.transportae.linhaTransporte.LinhaTransporteService;
 import br.com.transportae.usuario.UsuarioDto;

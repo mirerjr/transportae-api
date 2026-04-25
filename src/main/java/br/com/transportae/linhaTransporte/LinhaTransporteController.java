@@ -13,10 +13,9 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.web.bind.annotation.*;
 
-import br.com.transportae.Itinerario.ItinerarioDto;
-import br.com.transportae.Itinerario.ItinerarioModel;
-import br.com.transportae.Itinerario.ItinerarioService;
-import br.com.transportae.ItinerarioStatus.TipoItinerarioStatus;
+import br.com.transportae.itinerarioStatus.TipoItinerarioStatus;
+import br.com.transportae.itinerario.ItinerarioModel;
+import br.com.transportae.itinerario.ItinerarioService;
 import br.com.transportae.pontoParada.PontoParadaService;
 import br.com.transportae.usuario.Perfil;
 import br.com.transportae.usuario.UsuarioService;

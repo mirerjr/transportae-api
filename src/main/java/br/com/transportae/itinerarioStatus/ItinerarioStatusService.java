@@ -1,11 +1,11 @@
-package br.com.transportae.ItinerarioStatus;
+package br.com.transportae.itinerarioStatus;
 
 import java.util.List;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import br.com.transportae.Itinerario.ItinerarioModel;
+import br.com.transportae.itinerario.ItinerarioModel;
 import lombok.RequiredArgsConstructor;
 
 @Service

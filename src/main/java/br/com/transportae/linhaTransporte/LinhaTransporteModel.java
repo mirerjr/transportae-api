@@ -6,7 +6,7 @@ import java.util.List;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import br.com.transportae.Itinerario.ItinerarioModel;
+import br.com.transportae.itinerario.ItinerarioModel;
 import br.com.transportae.pontoParada.PontoParadaModel;
 import br.com.transportae.usuarioLinha.UsuarioLinhaModel;
 import jakarta.persistence.Column;

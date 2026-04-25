@@ -1,4 +1,4 @@
-package br.com.transportae.ItinerarioPontoStatus;
+package br.com.transportae.itinerarioPontoStatus;
 
 import java.time.LocalDateTime;
 

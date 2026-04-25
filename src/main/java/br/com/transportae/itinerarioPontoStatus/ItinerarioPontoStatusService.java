@@ -1,4 +1,4 @@
-package br.com.transportae.ItinerarioPontoStatus;
+package br.com.transportae.itinerarioPontoStatus;
 
 import java.util.List;
 import java.util.Objects;
@@ -6,8 +6,7 @@ import java.util.Objects;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoModel;
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoService;
+import br.com.transportae.itinerarioPonto.ItinerarioPontoModel;
 import br.com.transportae.usuario.UsuarioDto;
 import br.com.transportae.usuario.UsuarioModel;
 import br.com.transportae.usuario.UsuarioService;

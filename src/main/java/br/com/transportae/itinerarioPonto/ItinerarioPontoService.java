@@ -1,26 +1,21 @@
-package br.com.transportae.ItinerarioPonto;
+package br.com.transportae.itinerarioPonto;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import br.com.transportae.Itinerario.ItinerarioModel;
-import br.com.transportae.Itinerario.ItinerarioService;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusDto;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusModel;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusRepository;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusService;
-import br.com.transportae.ItinerarioPontoStatus.TipoItinerarioPontoStatus;
-import br.com.transportae.pontoParada.PontoParadaModel;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusDto;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusModel;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusRepository;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusService;
+import br.com.transportae.itinerarioPontoStatus.TipoItinerarioPontoStatus;
+import br.com.transportae.itinerario.ItinerarioModel;
 import br.com.transportae.pontoParada.PontoParadaService;
-import br.com.transportae.usuario.UsuarioDto;
 import br.com.transportae.usuario.UsuarioModel;
 import br.com.transportae.usuario.UsuarioService;
 import jakarta.persistence.EntityNotFoundException;
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @Service

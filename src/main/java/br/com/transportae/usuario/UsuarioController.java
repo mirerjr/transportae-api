@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.transportae.Itinerario.ItinerarioService;
+import br.com.transportae.itinerario.ItinerarioService;
 import br.com.transportae.linhaTransporte.LinhaTransporteService;
 import br.com.transportae.usuarioLinha.UsuarioLinhaModel;
 import br.com.transportae.usuarioLinha.UsuarioLinhaService;

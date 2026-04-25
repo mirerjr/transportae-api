@@ -1,4 +1,4 @@
-package br.com.transportae.ItinerarioStatus;
+package br.com.transportae.itinerarioStatus;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

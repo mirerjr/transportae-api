@@ -1,4 +1,4 @@
-package br.com.transportae.Itinerario;
+package br.com.transportae.itinerario;
 
 public enum TipoItinerario {
     IDA,

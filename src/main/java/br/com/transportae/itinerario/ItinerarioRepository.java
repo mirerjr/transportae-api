@@ -1,4 +1,4 @@
-package br.com.transportae.Itinerario;
+package br.com.transportae.itinerario;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -8,7 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import br.com.transportae.ItinerarioStatus.TipoItinerarioStatus;
+import br.com.transportae.itinerarioStatus.TipoItinerarioStatus;
 import br.com.transportae.linhaTransporte.LinhaTransporteModel;
 
 public interface ItinerarioRepository extends JpaRepository<ItinerarioModel, Long> {

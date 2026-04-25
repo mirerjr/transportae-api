@@ -1,6 +1,4 @@
-package br.com.transportae.ItinerarioPonto;
-
-import java.util.List;
+package br.com.transportae.itinerarioPonto;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -12,9 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusDto;
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusService;
-import br.com.transportae.usuario.UsuarioDto;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusDto;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 

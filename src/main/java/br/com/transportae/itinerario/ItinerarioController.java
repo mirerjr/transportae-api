@@ -1,4 +1,4 @@
-package br.com.transportae.Itinerario;
+package br.com.transportae.itinerario;
 
 import java.security.Principal;
 import java.util.List;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.transportae.ItinerarioStatus.ItinerarioStatusDto;
+import br.com.transportae.itinerarioStatus.ItinerarioStatusDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 

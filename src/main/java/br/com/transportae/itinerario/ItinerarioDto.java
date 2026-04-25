@@ -1,10 +1,10 @@
-package br.com.transportae.Itinerario;
+package br.com.transportae.itinerario;
 
 import java.util.List;
 
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoDto;
-import br.com.transportae.ItinerarioStatus.ItinerarioStatusDto;
-import br.com.transportae.ItinerarioStatus.TipoItinerarioStatus;
+import br.com.transportae.itinerarioPonto.ItinerarioPontoDto;
+import br.com.transportae.itinerarioStatus.ItinerarioStatusDto;
+import br.com.transportae.itinerarioStatus.TipoItinerarioStatus;
 import br.com.transportae.linhaTransporte.LinhaTransporteDto;
 import br.com.transportae.usuario.UsuarioDto;
 import jakarta.persistence.EnumType;

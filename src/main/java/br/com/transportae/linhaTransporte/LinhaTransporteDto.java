@@ -2,7 +2,7 @@ package br.com.transportae.linhaTransporte;
 
 import java.time.LocalDateTime;
 
-import br.com.transportae.Itinerario.ItinerarioDto;
+import br.com.transportae.itinerario.ItinerarioDto;
 import br.com.transportae.pontoParada.PontoParadaDto;
 import br.com.transportae.usuario.UsuarioDto;
 import jakarta.persistence.EnumType;

@@ -1,4 +1,4 @@
-package br.com.transportae.ItinerarioPontoStatus;
+package br.com.transportae.itinerarioPontoStatus;
 
 public enum TipoItinerarioPontoStatus {
     ALUNO_AUSENTE,

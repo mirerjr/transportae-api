@@ -1,4 +1,4 @@
-package br.com.transportae.ItinerarioPonto;
+package br.com.transportae.itinerarioPonto;
 
 import java.util.List;
 

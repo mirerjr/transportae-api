@@ -1,21 +1,20 @@
-package br.com.transportae.ItinerarioPontoStatus;
+package br.com.transportae.itinerarioPonto;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoModel;
-import br.com.transportae.usuario.UsuarioModel;
-import jakarta.persistence.Column;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusModel;
+import br.com.transportae.itinerario.ItinerarioModel;
+import br.com.transportae.pontoParada.PontoParadaModel;
 import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -23,27 +22,27 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@Entity(name = "ponto_status")
+@Entity(name = "itinerario_ponto")
+@NoArgsConstructor
 @AllArgsConstructor
-@NoArgsConstructor 
-public class ItinerarioPontoStatusModel {
+public class ItinerarioPontoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-
-    @Enumerated(EnumType.STRING)
-    private TipoItinerarioPontoStatus status;
 
     @CreationTimestamp
     private LocalDateTime dataCadastro;
 
     @UpdateTimestamp
     private LocalDateTime dataAtualizacao;
-    
-    @ManyToOne
-    private ItinerarioPontoModel itinerarioPonto;
 
     @ManyToOne
-    private UsuarioModel usuario;
+    private ItinerarioModel itinerario;
+
+    @ManyToOne
+    private PontoParadaModel pontoParada;
+
+    @OneToMany(mappedBy = "itinerarioPonto")
+    List<ItinerarioPontoStatusModel> pontoStatus;
 }

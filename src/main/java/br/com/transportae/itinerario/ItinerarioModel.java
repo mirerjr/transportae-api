@@ -1,4 +1,4 @@
-package br.com.transportae.Itinerario;
+package br.com.transportae.itinerario;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoModel;
-import br.com.transportae.ItinerarioStatus.ItinerarioStatusModel;
-import br.com.transportae.ItinerarioStatus.TipoItinerarioStatus;
+import br.com.transportae.itinerarioPonto.ItinerarioPontoModel;
+import br.com.transportae.itinerarioStatus.ItinerarioStatusModel;
+import br.com.transportae.itinerarioStatus.TipoItinerarioStatus;
 import br.com.transportae.linhaTransporte.LinhaTransporteModel;
 import br.com.transportae.usuario.UsuarioModel;
 import jakarta.persistence.Column;

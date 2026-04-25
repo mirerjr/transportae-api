@@ -1,8 +1,8 @@
-package br.com.transportae.ItinerarioPonto;
+package br.com.transportae.itinerarioPonto;
 
 import java.util.List;
 
-import br.com.transportae.ItinerarioPontoStatus.ItinerarioPontoStatusDto;
+import br.com.transportae.itinerarioPontoStatus.ItinerarioPontoStatusDto;
 import br.com.transportae.pontoParada.PontoParadaDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

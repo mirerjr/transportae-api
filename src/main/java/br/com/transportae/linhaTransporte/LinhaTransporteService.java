@@ -16,9 +16,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import br.com.transportae.Itinerario.ItinerarioDto;
-import br.com.transportae.Itinerario.ItinerarioModel;
-import br.com.transportae.Itinerario.ItinerarioService;
+import br.com.transportae.itinerario.ItinerarioDto;
+import br.com.transportae.itinerario.ItinerarioModel;
+import br.com.transportae.itinerario.ItinerarioService;
 import br.com.transportae.pontoParada.PontoParadaModel;
 import br.com.transportae.pontoParada.PontoParadaService;
 import jakarta.persistence.EntityNotFoundException;

@@ -1,10 +1,10 @@
-package br.com.transportae.ItinerarioPontoStatus;
+package br.com.transportae.itinerarioPontoStatus;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.transportae.ItinerarioPonto.ItinerarioPontoModel;
+import br.com.transportae.itinerarioPonto.ItinerarioPontoModel;
 import br.com.transportae.usuario.UsuarioModel;
 
 public interface ItinerarioPontoStatusRepository extends JpaRepository<ItinerarioPontoStatusModel, Long> {

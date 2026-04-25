@@ -1,10 +1,10 @@
-package br.com.transportae.ItinerarioStatus;
+package br.com.transportae.itinerarioStatus;
 
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import br.com.transportae.Itinerario.ItinerarioModel;
+import br.com.transportae.itinerario.ItinerarioModel;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

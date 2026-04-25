@@ -1,4 +1,4 @@
-package br.com.transportae.ItinerarioStatus;
+package br.com.transportae.itinerarioStatus;
 
 import java.util.List;
 import java.util.Optional;
